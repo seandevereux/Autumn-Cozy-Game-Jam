@@ -53,28 +53,28 @@ public class PlayerController : MonoBehaviour
 
             if (inputHorizontal > 0)
             {
-                ChangeAnimationState(PLAYER_WALK_RIGHT);
+                ChangeAnimation(PLAYER_WALK_RIGHT);
             }
             else if (inputHorizontal < 0)
             {
-                ChangeAnimationState(PLAYER_WALK_LEFT);
+                ChangeAnimation(PLAYER_WALK_LEFT);
             } else if (inputVertical > 0)
             {
-                ChangeAnimationState(PLAYER_WALK_UP);
+                ChangeAnimation(PLAYER_WALK_UP);
             }
             else if (inputVertical < 0)
             {
-                ChangeAnimationState(PLAYER_WALK_DOWN);
+                ChangeAnimation(PLAYER_WALK_DOWN);
             }
 
         } else
         {
             _rigidbody.velocity = new Vector2(0f, 0f);
-            ChangeAnimationState(PLAYER_IDLE);
+            ChangeAnimation(PLAYER_IDLE);
         }
     }
 
-    void ChangeAnimationState(string animation)
+    void ChangeAnimation(string animation)
     {
         if(currentAnimation == animation)
         {
