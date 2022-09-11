@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9f85f4b24607f4ba3106683053cdde, type: 3}
+  m_Name: Pumpkin
+  m_EditorClassIdentifier: 
+  prefabName: Pumpkin
+  plantType: 1
+  plantGrowthDifficulty: 1
+  seedlingStageObject: {fileID: 975176746089600980, guid: 8fdf7e0ab9f227e45a48b110e578168d, type: 3}
+  buddingStageObject: {fileID: 8182985243545579354, guid: 1ff88fbf6def3334581a533ed28ab6cd, type: 3}
+  floweringStageObject: {fileID: 7590036456936559180, guid: 492a8f8c057ca1c4b99d660b34db5f74, type: 3}
+  bloomingStageObject: {fileID: 8182985243545579354, guid: 5c7d1958ab5a5404d995fb4a10fcf3c2, type: 3}
+  finishedStageObject: {fileID: 5894537833032370283, guid: e7e171f4697336b45aad89ea938ae282, type: 3}
